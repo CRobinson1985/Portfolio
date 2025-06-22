@@ -34,8 +34,8 @@ export default function App() {
     <div>
       <LoaderBackdrop animateOut={animateOut} />
 
+      <Header />
       <main className={animateOut ? "slide-in" : ""}>
-        <Header />
         <Hero />
         <About />
         <GalleryHeader />

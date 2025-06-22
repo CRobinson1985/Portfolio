@@ -14,18 +14,13 @@
 .hero {
   height: clamp(25vh, 50vh, 60vh);
   display: flex;
-  /* position: relative; */
   justify-content: center;
-  h1 {
-    /* position: absolute; */
-    bottom: -150px;
-    
-  }
 }
 h1 {
   position: relative;
   font-family: roboto-slab;
   font-weight: 400;
+  bottom: -150px;
   font-size: clamp(2rem, 6vw, 5rem);
   color: transparent;
   background-clip: text;

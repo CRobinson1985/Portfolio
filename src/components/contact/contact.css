@@ -13,6 +13,7 @@ input, textarea {
 }
 form button {
   background-color: rgb(6, 19, 93);
+  padding: 2% 5%;
 }
 form button:hover {
   color: rgb(6, 19, 93);

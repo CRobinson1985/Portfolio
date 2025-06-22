@@ -26,11 +26,5 @@ footer {
   transition: all 0.3s;
 }
 .social-card {
-  margin: 1%;
-  
-}
-footer > div {
-  display: flex;
-  justify-content: center;
-
+  margin: 0.5%;
 }
