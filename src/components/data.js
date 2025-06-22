@@ -9,6 +9,7 @@ import socialImg from "../assets/pics/social-links.jpg";
 import summaryImg from "../assets/pics/summary.jpg";
 import bellaImg from "../assets/pics/Bella Hotels.jpg";
 import mrbImg from "../assets/pics/MrB.jpg";
+import NYCImg from "../assets/pics/Experience NYC.jpg"
 
 const data = [
   {
@@ -17,6 +18,13 @@ const data = [
     alt: "Preview of a Language Teacher's website",
     description: "Please feel free to check out this website that I've created for the Best Italian language teacher. If you are curious to learn Italian with an amazing teacher, please reach out to her!",
     img: valImg,
+  }, 
+  {
+    name: "Love NYC",
+    link: "",
+    alt: "Preview of a Website for Lovers of New York City",
+    description: "I am currently working on making this project. In the end, I am working to make a really clean, modern looking site about one of the greatest cities on earth.",
+    img: NYCImg,
   }, 
   {
     name: "Simon Game",
