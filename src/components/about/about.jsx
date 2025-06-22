@@ -1,4 +1,4 @@
-import myself from '../../assets/pics/myself.jpg';
+import myself from '../../assets/pics/Myself.jpg';
 import './about.css';
 
 export default function About() {
