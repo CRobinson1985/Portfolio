@@ -1,60 +1,58 @@
 import { createRoot } from 'react-dom/client';
-import Header from "./components/header";
-import Hero from "./components/hero";
-import Gallery from "./components/gallery";
-import Footer from "./components/footer";
+import Header from "./components/Header/header.jsx";
+import Hero from "./components/Hero/hero.jsx";
+import About from "./components/about/about.jsx";
+import Gallery, { GalleryHeader } from "./components/Gallery/gallery.jsx";
+import Footer from "./components/Footer/footer.jsx";
 import { useState, useEffect } from 'react';
 import data from "./components/data.js";
-import lightSpeed from './assets/pics/light-speed.gif';
+import oceanWaves from "./assets/pics/Ocean-Waves.mp4";
 
-function LoaderBackdrop() {
+function LoaderBackdrop({ animateOut }) {
   return (
-    <div id="loader-backdrop">
-      <img src={lightSpeed} alt="Light Speed Travel" />
+    <div id="loader-backdrop" className={animateOut ? "slide-down" : ""}>
+      <video src={oceanWaves} autoPlay loop muted />
       <h3>Loading, Please Wait...</h3>
     </div>
   );
 }
 
 export default function App() {
-  const [isCoolGuy, setIsCoolGuy] = useState(false);
-  const [loading, setLoading] = useState(true);
+  const [animateOut, setAnimateOut] = useState(false);
 
   useEffect(() => {
     const timer = setTimeout(() => {
-      setLoading(false);
+      setAnimateOut(true);
     }, 2000);
 
     return () => clearTimeout(timer);
   }, []);
 
-  if (loading) {
-    return <LoaderBackdrop />;
-  }
-
   return (
     <div>
-      <Header isCoolGuy={isCoolGuy} />
-      <Hero isCoolGuy={isCoolGuy} setIsCoolGuy={setIsCoolGuy} />
-      <h2>Check out some of my recent projects:</h2>
-      
-      {data.map((item, index) => (
-        <Gallery
-          key={index + item.name}
-          name={item.name}
-          link={item.link}
-          alt={item.alt}
-          description={item.description}
-          img={item.img}
-        />
-      ))}
-      
-      <Footer />
+      <LoaderBackdrop animateOut={animateOut} />
+
+      <main className={animateOut ? "slide-in" : ""}>
+        <Header />
+        <Hero />
+        <About />
+        <GalleryHeader />
+        {data.map((item, index) => (
+          <Gallery
+            key={index + item.name}
+            name={item.name}
+            link={item.link}
+            alt={item.alt}
+            description={item.description}
+            img={item.img}
+          />
+        ))}
+        <Footer />
+      </main>
     </div>
   );
 }
 
-const container = document.getElementById('root'); 
+const container = document.getElementById('root');
 const root = createRoot(container);
-
 root.render(<App />);
