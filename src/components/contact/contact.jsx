@@ -3,14 +3,14 @@ import "./contact.css";
 
 export default function Contact() {
 
-  const [result, setResult] = React.useState("");
+  const [result, setResult] = useState("");
 
   const onSubmit = async (event) => {
     event.preventDefault();
     setResult("Sending....");
     const formData = new FormData(event.target);
 
-    formData.append("access_key", "YOUR_ACCESS_KEY_HERE");
+    formData.append("access_key", "ac95cd74-fc42-4f46-88ec-ef9769432a4d");
 
     const response = await fetch("https://api.web3forms.com/submit", {
       method: "POST",
@@ -32,7 +32,7 @@ export default function Contact() {
     <div id="contact" className="contact-div">
       <h2>Contact me</h2>
       <p>Interested in employing my services or collaborating? Please feel free to get in touch! You can also get in touch with me through my social links below.</p>
-      <form action="submit">
+      <form onSubmit={onSubmit} >
         <label htmlFor="name-input">Name</label>
         <input type="name" name="name" id="name-input" required />
         <label htmlFor="email-input">Email</label>
