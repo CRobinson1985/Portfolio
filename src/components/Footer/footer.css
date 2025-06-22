@@ -1,6 +1,9 @@
 footer {
   height: 20vh;
-  background: linear-gradient( rgb(166, 228, 228), var(--turquoise), var(--darkblue),var(--darkness));
+  background: linear-gradient( rgb(231, 231, 231), rgb(231, 231, 231), var(--darkblue),var(--darkness));
+  font-weight: 500;
+  text-shadow: 3px 3px 4px black;
+  color: rgb(231, 231, 231);
   background-size: cover;
   padding: 10%;
   text-align: center;
@@ -13,6 +16,7 @@ footer {
   border-radius: 50%;
   box-shadow: 0 0 5px white;
   transition: all 0.3s;
+  margin: 1% 0.5%;
   width: 2em;
   height: 2em;
 }

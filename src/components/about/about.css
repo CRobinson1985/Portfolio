@@ -1,20 +1,31 @@
 #my-portrait {
-  width: 20%;
+  width: 55%;
+  min-width: 200px;
   border-radius:7%;
+  justify-self: center;
   box-shadow: 2px 2px 4px rgb(32, 32, 32), -2px -2px 4px rgb(216, 211, 211);
+   display: flex;
+  margin: 0 40px;
 }
 
 .about {
   justify-self: center;
   padding: 40px 0;
-  width: 90%;
+  width: 75%;
   display: flex;
   position: relative;
   top: -40px;
   border-radius: 7px;
   justify-content: center;
   align-items: center;
-  background-image: linear-gradient( 45deg, rgba(0, 255, 255, 0.3), rgba(0, 255, 255, 0.5), rgba(0, 255, 255, 0.3));
+  background-image: linear-gradient( 45deg, rgba(218, 218, 218, 0.3), rgba(224, 224, 224, 0.5), rgba(218, 218, 218, 0.3));
   box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.4), -4px -4px 2px rgba(234, 229, 229, 0.4);
   backdrop-filter: blur(2px);
+}
+.about-text p {
+  width: 80%;
+  text-align: justify;
+}
+.about-text {
+  margin-left: 40px;
 }

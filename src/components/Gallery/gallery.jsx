@@ -1,7 +1,11 @@
 import "./gallery.css";
 
 export function GalleryHeader() {
-  return <h2>My recent projects</h2>
+  return (
+    <div id="gallery">
+      <h2>My recent projects</h2>
+    </div>
+  )
 }
 
 export default function Gallery({link, name, img, alt, description}) {

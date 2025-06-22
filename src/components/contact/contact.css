@@ -1,0 +1,15 @@
+form {
+  display: block;
+}
+input {
+  width: 50%;
+  display: block;
+  background-color: #e4e4e4;
+  border-radius: 10px;
+}
+form button {
+  background-color: rgb(6, 19, 93);
+}
+form button:hover {
+  color: rgb(6, 19, 93);
+}

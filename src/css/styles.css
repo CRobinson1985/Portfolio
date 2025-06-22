@@ -24,33 +24,55 @@
 }
 
 body {
-  color: white;
+  color: rgb(0, 0, 0);
+  font-weight: 400;
   width: auto;
   margin: 0%;
   padding: 0%;
   border: 0%;
   overflow-x: hidden;
-  background-color: rgb(166, 228, 228);
+  background-color: rgb(231, 231, 231);
 }
 
 .hidden {
   display: none;
 }
 
+button {
+  background-color: transparent;
+  border-radius: 10px;
+  color: white;
+  border: transparent;
+  margin: 0 0.5%;
+  padding: 0.8% 1.5%;
+  font-weight: 600;
+  transition: all 300ms ease-in-out;
+}
+
+button:hover {
+  background-color: rgba(0, 255, 255, 0.3);
+  cursor: pointer;
+}
 
 h2 {
+
+  font-weight: 700;
   margin: 5%;
-  font-size: 2rem;
+  font-size: clamp( 1.3rem, 3vw, 2.5rem ) ;
+  letter-spacing: -1px;
 }
 
 h3 {
-  font-size: 1.5rem;
+  
+  letter-spacing: -1px;
+  font-weight: 600;
+  font-size: clamp(1.1rem, 2vw, 2.3rem);
   margin-bottom: 2%;
 }
-
-h2, h3, p {
-  text-shadow: 1px 1px 5px black ;
+p {
+  font-size: clamp(0.9rem, 1vw, 1.5rem);
 }
+
 
 main {
   position: relative;
@@ -116,7 +138,6 @@ main.slide-in {
   padding: 10px;
   border-radius: 10px;
   background-color: rgba(0, 0, 0, 0.7);
-  border: 2px solid rgb(192, 0, 0);
   color: white;
 }
 
@@ -144,100 +165,3 @@ main.slide-in {
   animation: contentSlideIn 1.2s ease-out 0.5s forwards;
 }
 
-
-
-
-
-@media (max-width: 1400px) {
-  h1 {
-    font-size: 3.2em;
-  }
-  h2 {
-    font-size: 1.8em;
-  }
-}
-
-@media (max-width: 1200px) {
-  h1 {
-    font-size: 2.6em;
-  }
-  h2, h3 {
-    font-size: 1.5em;
-  }
-  .gallery-text p {
-    margin: 0;
-    padding: 2%;
-    text-align: center;
-    font-size: 1em;
-  }
-    .gallery-item {
-    display: grid;
-  }
-}
-
-@media (max-width: 1000px) {
-  h1 {
-    font-size: 1.8em;
-  }
-  h2, h3 {
-    font-size: 1.2em;
-  }
-  .gallery-text p {
-    margin: 0;
-    padding: 2%;
-    text-align: center;
-    font-size: 1em;
-  }
-    .gallery-item {
-    display: grid;
-  }
-  footer {
-    padding: 15%;
-  }
-}
-
-@media (max-width: 800px) {
-  h1 {
-    font-size: 1.5em;
-  }
-  h2, h3 {
-    font-size: 0.9em;
-  }
-  .gallery-text p {
-    margin: 0;
-    padding: 1.5%;
-    text-align: center;
-    font-size: 0.8em;
-  }
-  .gallery-item {
-    display: block;
-  }
-  .gallery-item img {
-    margin: 5% 0;
-  }
-  
-}
-
-@media (max-width: 600px) {
-  .bust {
-    border: 8px solid var(--blue);
-  }
-  h1 {
-    font-size: 1.3em;
-  }
-  h2, h3 {
-    font-size: 0.8em;
-  }
-  .gallery-text p {
-    margin: 0;
-    padding: 1.5%;
-    text-align: center;
-    font-size: 0.7em;
-  }
-  .gallery-item {
-    display: block;
-  }
-  footer {
-    padding: 15%;
-  }
-}

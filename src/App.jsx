@@ -3,6 +3,8 @@ import Header from "./components/Header/header.jsx";
 import Hero from "./components/Hero/hero.jsx";
 import About from "./components/about/about.jsx";
 import Gallery, { GalleryHeader } from "./components/Gallery/gallery.jsx";
+import Services from "./components/services/services.jsx";
+import Contact from "./components/contact/contact.jsx";
 import Footer from "./components/Footer/footer.jsx";
 import { useState, useEffect } from 'react';
 import data from "./components/data.js";
@@ -47,6 +49,8 @@ export default function App() {
             img={item.img}
           />
         ))}
+        <Services />
+        <Contact />
         <Footer />
       </main>
     </div>
