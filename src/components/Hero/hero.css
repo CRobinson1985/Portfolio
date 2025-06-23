@@ -19,7 +19,7 @@
 h1 {
   position: relative;
   font-family: roboto-slab;
-  font-weight: 400;
+  font-weight: 600;
   bottom: -150px;
   font-size: clamp(2rem, 6vw, 5rem);
   color: transparent;
