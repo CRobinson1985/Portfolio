@@ -21,7 +21,7 @@ const data = [
   }, 
   {
     name: "Love NYC",
-    link: "",
+    link: "https://nyc-love.vercel.app/",
     alt: "Preview of a Website for Lovers of New York City",
     description: "I am currently working on making this project. In the end, I am working to make a really clean, modern looking site about one of the greatest cities on earth.",
     img: NYCImg,
