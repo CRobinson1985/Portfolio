@@ -7,7 +7,7 @@ export default function Services() {
       <p>
         I offer my services as a freelance Web Developer. I have been working
         dilligently on conquering and mastering React. This website has been
-        coded and compiled with React.js. Though, I am happy to work with WordPress, Frame, or others
+        coded and compiled with React.js. Though, I am happy to work with WordPress, Framer, or other Website designer suites.
       </p>
       <ul>
         <li>Custom Websites</li>
