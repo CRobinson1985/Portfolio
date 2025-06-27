@@ -166,6 +166,6 @@ main.slide-in {
 }
 
 .slide-in {
-  animation: contentSlideIn 1.2s ease-out 0.5s forwards;
+  animation: contentSlideIn 1.5s ease-in-out 0.7s forwards;
 }
 

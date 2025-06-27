@@ -42,7 +42,6 @@ a {
 button {
   padding: 0.5em 1em;
   white-space: nowrap;
-  
   background: transparent;
   margin: 1%;
   border-radius: 4px;
@@ -74,10 +73,10 @@ a button:hover {
     position: absolute;
     top: 60px;
     right: 20px;
-    background: rgba(0,0,0, 0.2);
+    background: rgba(0, 0, 0, 0.3);
     padding: 10px;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   }
 
   .nav-links.open {

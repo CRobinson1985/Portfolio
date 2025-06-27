@@ -1,35 +1,35 @@
 #my-portrait {
-  width: 55%;
-  min-width: 200px;
+  width: 30%;
+  float: left;
+  position: relative;
   border-radius:7%;
   justify-self: center;
   box-shadow: 2px 2px 4px rgb(32, 32, 32), -2px -2px 4px rgb(216, 211, 211);
    display: flex;
-  margin: 0 40px;
+  margin: 10px 40px;
 }
 
 .about {
   justify-self: center;
   padding: 40px 0;
   width: 75%;
-  display: flex;
   position: relative;
   top: -40px;
   border-radius: 7px;
   justify-content: center;
   align-items: center;
-  background-image: linear-gradient( 45deg, rgba(218, 218, 218, 0.3), rgba(224, 224, 224, 0.5), rgba(218, 218, 218, 0.3));
-  box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.4), -4px -4px 2px rgba(234, 229, 229, 0.4);
-  backdrop-filter: blur(2px);
+  background-image: linear-gradient( 45deg, rgba(154, 154, 154, 0.2), rgba(224, 224, 224, 0.5), rgba(126, 126, 126, 0.2));
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4), -2px -2px 5px rgba(165, 165, 165, 0.4);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
 }
-.about-text p {
+.about p {
   width: 100%;
-  text-align: center;
-  padding: 10%;
+  padding: 0 5%;
 }
-.about-text {
+
+.about h2 {
   text-align: center;
-  
 }
 
 @media (max-width: 790px) {
