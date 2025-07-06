@@ -51,13 +51,6 @@ export default function Footer () {
             alt="Discord Logo"
         /></a>
         
-        <a className="social-card" href="mailto:crobinson92828@gmail.com">
-          <img
-            className="social-icons"
-            src={emailSocial}
-            alt="Email Me Icon"
-            />
-            </a>
       </div>
     </footer>
   );
