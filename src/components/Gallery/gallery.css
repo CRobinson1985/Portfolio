@@ -25,14 +25,12 @@
   height: auto;
   width: 100%;
   border-radius: 20px;
-  box-shadow: 3px 3px 8px black, -3px -3px 5px rgb(84, 123, 167);
+  box-shadow: 2px 2px 5px black, -2px -2px 5px rgb(183, 197, 214);
   transition: 200ms all ease-in-out;
 }
 .gallery-img:hover {
-  transform: scale(1.1);
-  transition: 200ms all ease-in-out;
+  transform: scale(1.2);
   
-  box-shadow: 4px 4px 10px black, -3px -3px 5px rgb(84, 123, 167);
 }
 .gallery-img:active {
   transform: scale(1);

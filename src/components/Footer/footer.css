@@ -9,21 +9,15 @@ footer {
   text-align: center;
 }
 .social-icons {
-  object-fit: contain;
-  align-self: center;
-  background-color: white;
-  border: 1px solid black;
-  border-radius: 50%;
-  box-shadow: 0 0 5px white;
-  transition: all 0.3s;
-  margin: 1% 0.5%;
+  transition: all 0.25s;
+  margin: 1em 0.75em;
   width: 2.2em;
   height: 2.2em;
 }
 
 .social-icons:hover {
   transform: scale(1.2);
-  transition: all 0.3s;
+  
 }
 .social-card {
   margin: 0.5%;
