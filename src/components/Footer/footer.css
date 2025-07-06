@@ -22,3 +22,11 @@ footer {
 .social-card {
   margin: 0.5%;
 }
+
+@media (max-width: 500px ) {
+  .social-icons {
+    margin: 1em 0.5em;
+    width: 1.4em;
+    height: 1.4em;
+  }
+}
