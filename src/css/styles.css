@@ -96,13 +96,15 @@ main.slide-in {
     opacity: 1;
   }
   50% {
-    filter: brightness(0.5);
+    opacity: 1;
   }
   80% {
-    opacity: 0;
+    filter: brightness(0.5);
+    opacity: 0.5;
   }
   100% {
     opacity: 0;
+    filter: brightness(0);
     transform: translateY(100%);
   }
 }

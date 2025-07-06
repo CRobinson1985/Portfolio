@@ -1,4 +1,4 @@
-import valImg from "../assets/pics/Valsite.jpg";
+import valImg from "../assets/pics/vals-site-hero.jpg";
 import simonImg from "../assets/pics/Simon.jpg";
 import drumImg from "../assets/pics/Drums.jpg";
 import equilibriumImg from "../assets/pics/equillibrium.jpg";
@@ -8,7 +8,6 @@ import omeletteImg from "../assets/pics/omelette.jpg";
 import socialImg from "../assets/pics/social-links.jpg";
 import summaryImg from "../assets/pics/summary.jpg";
 import bellaImg from "../assets/pics/Bella Hotels.jpg";
-import mrbImg from "../assets/pics/MrB.jpg";
 import NYCImg from "../assets/pics/Experience NYC.jpg"
 
 const data = [
@@ -90,13 +89,7 @@ const data = [
     description: "This was a project from my Full-Stack Web Development course as well, for a ficticious Hotel. I personally made the graphic for this site. I'm happy with how it came out!",
     img: bellaImg
   },
-  {
-    name: "An Intriguing Website",
-    link: "https://crobinson1985.github.io/An-Intriguing-Website/",
-    alt: "Preview of a black and white experiment",
-    description: "This page was made mostly experimentally, but also became something a little silly. I have a soft spot for black and white imagery.",
-    img: mrbImg
-  },
+  
 ];
 
       export default data;

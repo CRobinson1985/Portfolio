@@ -13,10 +13,11 @@ export default function About() {
       <h2>About Me</h2>
       <p>
         As a kid, I always had a love for computers. They blew my mind with how
-        much you could do with them. When I grew ino my mid teens, I taught
-        myself how to code in HTML with a guide to programming. I consumed it
+        much you could do with them. When I grew into my mid teens, I taught
+        myself how to code in HTML with just a HTML guide book. I consumed it
         and enjoyed every moment of it. Eventually, I also acquired a guide for
-        Visual Basic and C, and started the process learning them on my own.
+        Visual Basic and C, and started the process learning them on my own,
+        too.
       </p>
       <p>
         My career life as a young adult had gone a different route from coding,
@@ -27,15 +28,19 @@ export default function About() {
         know the in's and outs of them. So, I became an automotive mechanic. I
         fixed cars for a number years. Eventually, I found an opportunity to go
         into Sales, and jumped at the chance. I've sold automotive service, then
-        brand new Automobiles, and finally mattresses.
+        brand new Automobiles. Ultimately, ending my sales journey in mattress
+        sales.
       </p>
       <p>
         Now, 25+ years after I initially found that love for coding, my passion
         has been reignited. I have completed a number of great courses on
         Full-stack Web Development, JavaScript, TypeScript, and Responsive Web
-        Design. My Journey has been a long and winding road. But it's
-        interesting how things can come back around eventually to where you are
-        meant to be. And, Coding is 100% where I am meant to be.
+        Design. And, I have been working hard on some great real-world projects.
+        One of my projects that I am most proud of being the first in my gallery
+        for an amazing Italian and Biology teacher. My Journey has been a long
+        and winding road. But it's interesting how things can come back around
+        eventually to where you are meant to be. And, Coding is 100% where I am
+        meant to be.
       </p>
     </div>
   );
