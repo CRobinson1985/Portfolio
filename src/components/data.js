@@ -6,8 +6,6 @@ import faqImg from "../assets/pics/faq.jpg";
 import ratingImg from "../assets/pics/rating.jpg";
 import omeletteImg from "../assets/pics/omelette.jpg";
 import socialImg from "../assets/pics/social-links.jpg";
-import summaryImg from "../assets/pics/summary.jpg";
-import bellaImg from "../assets/pics/Bella Hotels.jpg";
 import NYCImg from "../assets/pics/Experience NYC.jpg"
 
 const data = [
