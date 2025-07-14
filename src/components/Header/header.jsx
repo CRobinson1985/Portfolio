@@ -45,7 +45,7 @@ export default function Header() {
           <a href="#about"><button>About Me</button></a>
           <a href="#gallery"><button>Gallery</button></a>
           <a href="#services"><button>Services</button></a>
-          <a href="#contact"><button className="contact-btn">Contact Me</button></a>
+          <a href="https://my-social-card-mauve.vercel.app/" target="_blank"><button className="contact-btn">My Socials</button></a>
         </div>
       </nav>
     </header>
