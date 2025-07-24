@@ -8,6 +8,7 @@ import omeletteImg from '../assets/pics/omelette.jpg';
 import socialImg from '../assets/pics/social-links.jpg';
 import NYCImg from '../assets/pics/Experience NYC.jpg';
 import tidwcImg from '../assets/pics/tidwc.jpg';
+import hotelRomaImg from '../assets/pics/Hotel-Roma.jpg';
 
 const data = [
   {
@@ -26,6 +27,14 @@ const data = [
     description:
       'This is a Current project of mine for a wedding destination company. They specialize in helping people set up their dream wedding in Italy.',
     img: tidwcImg,
+  },
+  {
+    name: 'Hotel Concept',
+    link: '',
+    alt: 'Preview of a Hotel in Rome Concept Site',
+    description:
+      'Compiled as an example of work I could potentially do on the behalf of a Hotel in need of a refresh to their online presence.',
+    img: hotelRomaImg,
   },
 
   {
@@ -93,6 +102,7 @@ const data = [
       'Compiled with HTML and CSS styling. Yea, this was another challenge project.',
     img: socialImg,
   },
+  
 ];
 
 export default data;

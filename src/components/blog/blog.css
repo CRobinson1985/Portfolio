@@ -1,0 +1,17 @@
+.blog {
+  background: rgb(231, 231, 231);
+  min-height: 100vh;
+  padding: 5em 3em;
+  
+}
+
+.blog h1 {
+  margin: 3rem 0;
+  color: rgb(6, 19, 93);
+  letter-spacing: -3px;
+}
+.blog .portrait {
+  margin-left: 10%;
+  width: 20em;
+  clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+}
