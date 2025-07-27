@@ -1,9 +1,9 @@
 const reviews = [
-  {
-    name: 'theitaliandestinationweddingco',
-    review:
-      'Probably one of the best! Very patient listens to your vision and offers great solutions. I highly recommend',
-  },
+  // {
+  //   name: 'theitaliandestinationweddingco',
+  //   review:
+  //     'Probably one of the best! Very patient listens to your vision and offers great solutions. I highly recommend',
+  // },
   {
     name: 'Caffé e Particelle',
     review:

@@ -20,14 +20,14 @@ const data = [
     img: valImg,
   },
 
-  {
-    name: 'The Italian Destination Wedding Co',
-    link: 'https://italian-wedding-co.vercel.app/',
-    alt: 'Preview of The Italian Destination Wedding Co Website',
-    description:
-      'This is a Current project of mine for a wedding destination company. They specialize in helping people set up their dream wedding in Italy.',
-    img: tidwcImg,
-  },
+  // {
+  //   name: 'The Italian Destination Wedding Co',
+  //   link: 'https://italian-wedding-co.vercel.app/',
+  //   alt: 'Preview of The Italian Destination Wedding Co Website',
+  //   description:
+  //     'This is a Current project of mine for a wedding destination company. They specialize in helping people set up their dream wedding in Italy.',
+  //   img: tidwcImg,
+  // },
   {
     name: 'Hotel Concept',
     link: '',
