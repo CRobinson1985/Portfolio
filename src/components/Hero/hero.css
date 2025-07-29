@@ -109,18 +109,19 @@
   .hero h1 {
     text-shadow: 2px 2px 1px rgb(6, 19, 93);
     letter-spacing: -2px;
+    top: 20vh;
   }
   .hero .card {
     width: 85%;
   }
 }
-@media (max-width: 1400px) {
-  .hero h1 {
-    top: 50vh;
-  }
 
+@media (max-width: 900px) {
+  .hero h1 {
+    top: 20vh;
+  }
   .hero-content {
-    padding-top: 55vh;
+    padding-top: 40vh;
   }
 }
 
