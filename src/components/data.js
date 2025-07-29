@@ -7,7 +7,7 @@ import ratingImg from '../assets/pics/rating.jpg';
 import omeletteImg from '../assets/pics/omelette.jpg';
 import socialImg from '../assets/pics/social-links.jpg';
 import NYCImg from '../assets/pics/Experience NYC.jpg';
-import tidwcImg from '../assets/pics/tidwc.jpg';
+import iwsImg from '../assets/pics/Italian Wedding Site.jpg';
 import hotelRomaImg from '../assets/pics/Hotel-Roma.jpg';
 
 const data = [
@@ -20,14 +20,14 @@ const data = [
     img: valImg,
   },
 
-  // {
-  //   name: 'The Italian Destination Wedding Co',
-  //   link: 'https://italian-wedding-co.vercel.app/',
-  //   alt: 'Preview of The Italian Destination Wedding Co Website',
-  //   description:
-  //     'This is a Current project of mine for a wedding destination company. They specialize in helping people set up their dream wedding in Italy.',
-  //   img: tidwcImg,
-  // },
+  {
+    name: 'An Italian Wedding Planner Website Concept',
+    link: 'https://italian-wedding-co.vercel.app/',
+    alt: 'Preview of An Italian Wedding Planner Website Concept',
+    description:
+      'Created with React and Vite. This concept website is perfect for the right Wedding planning company.',
+    img: iwsImg,
+  },
   {
     name: 'Hotel Concept',
     link: '',
