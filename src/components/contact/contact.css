@@ -11,15 +11,12 @@ input, textarea {
   border-radius: 7px;
   margin: 1% 0;
   transition: all 0.25s;
-  text-indent: 0.5em;
+  padding: 0.5em;
   resize: none;
 }
 
-input:hover, textarea:hover {
-  transform: scale(1.1);
-}
-
 form button {
+  border-radius: 7px;
   background-color: rgb(6, 19, 93);
   padding: 2% 5%;
   transition: all 0.25s;

@@ -34,11 +34,11 @@ export default function Contact() {
       <p>Interested in employing my services or collaborating? Please feel free to get in touch! You can also get in touch with me through my social links below.</p>
       <form onSubmit={onSubmit} >
         <label htmlFor="name-input">Name</label>
-        <input type="name" name="name" id="name-input" required />
+        <input type="name" name="name" placeholder="ex: John Doe" id="name-input" required />
         <label htmlFor="email-input">Email</label>
-        <input type="email" name="email" id="email-input" required />
-        <label htmlFor="message-input">Enter a Quick Message</label>
-        <textarea name="message" id="message-input"></textarea>
+        <input type="email" name="email" placeholder="ex: john@doe.com" id="email-input" required />
+        <label htmlFor="message-input">Enter your Message</label>
+        <textarea name="message" placeholder="Write message here" id="message-input" required />
         <button id="submit-btn" type="submit">Submit</button>
       </form>
       <span>{result}</span>

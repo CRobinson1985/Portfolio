@@ -8,17 +8,21 @@ footer {
   padding: 10%;
   text-align: center;
 }
-.social-icons {
+
+footer svg {
   transition: all 0.25s;
   margin: 1em 0.75em;
   width: 2.2em;
   height: 2.2em;
+  color: white;
+  fill: white;
 }
 
-.social-icons:hover {
+footer svg:hover {
   transform: scale(1.2);
-  
+  fill: rgb(148, 148, 148);
 }
+
 .social-card {
   margin: 0.5%;
 }

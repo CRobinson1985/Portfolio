@@ -1,16 +1,61 @@
 .services-div {
-  width: 50%;
-  padding: 0 5%;
-}
-ul {
-  margin-top: 1rem;
-  margin-left: 40px;
+  margin: 0 1em;
+  gap: 1em;
+ display: grid;
+ grid-template-columns: 1fr 1fr;
 }
 
-@media (max-width: 790px ) {
-  .services-div {
-    justify-items: center;
-    justify-self: center;
-    width: 90%;
+.fancy-list {
+  list-style: none;
+  padding: 0;
+  margin-left: 0;
+}
+
+.fancy-list li {
+  position: relative;
+  padding-left: 2em; /* room for the emoji */
+  margin-bottom: 1em;
+  text-indent: 0; /* make sure nothing weird is going on */
+}
+
+.fancy-list li::before {
+  position: absolute;
+  left: 0;
+  top: 0.1em;
+  content: '•';
+  margin-right: 0.5em;
+  font-size: 1.2em;
+}
+
+.img-div {
+  grid-column: 2 / -1;
+  align-self: end;
+  justify-self: center;
+  display: flex;
+  align-items: center;
+  width: 90%;
+  height: 80%;
+  border-radius: 20px;
+  overflow: hidden;
+  img{
+    width: 100%;
+    
   }
+}
+.list-div {
+  grid-row: -1;
+}
+
+/* Custom icons */
+.fancy-list li:nth-child(1)::before { content: '🎨'; }
+.fancy-list li:nth-child(2)::before { content: '⚛️'; }
+.fancy-list li:nth-child(3)::before { content: '🛠️'; }
+.fancy-list li:nth-child(4)::before { content: '🧩'; }
+.fancy-list li:nth-child(5)::before { content: '🌐'; }
+
+@media (max-width: 790px) {
+  .services-div {
+    display: block;
+  }
+  
 }
