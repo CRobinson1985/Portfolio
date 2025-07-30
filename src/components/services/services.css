@@ -37,6 +37,7 @@
   height: 80%;
   border-radius: 20px;
   overflow: hidden;
+  box-shadow: 2px 2px 5px black, -2px -2px 5px rgb(183, 197, 214);
   img{
     width: 100%;
     

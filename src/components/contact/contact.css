@@ -29,8 +29,10 @@ form button:hover {
   
 }
 .contact-div {
-  width: 50%;
+  width: 100%;
   padding: 0 5%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 #message-input {
@@ -38,11 +40,25 @@ form button:hover {
   height: 120px;
   resize: none;
 }
+.form-div {
+  grid-column: 2 / -1;
+  grid-row: -1;
+}
+.contact-div > .img-div {
+  margin-top: 4rem;
+  grid-column: 1 / 2;
+  img{
+    height: 100%;
+    object-fit: cover;
+  }
+}
 
 @media (max-width: 790px ) {
   .contact-div {
     justify-items: center;
     justify-self: center;
     width: 90%;
+    display: block;
   }
+
 }
