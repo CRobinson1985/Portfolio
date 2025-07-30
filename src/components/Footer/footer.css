@@ -20,7 +20,7 @@ footer svg {
 
 footer svg:hover {
   transform: scale(1.2);
-  fill: rgb(148, 148, 148);
+  fill: rgb(210, 212, 255);
 }
 
 .social-card {
