@@ -24,6 +24,7 @@
   -webkit-backdrop-filter: blur(8px);
 }
 .about p {
+  text-indent: 2em;
   width: 100%;
   padding: 0 5%;
 }
@@ -38,4 +39,11 @@
     justify-items: center;
   }
 
+}
+@media (max-width: 600px) {
+  #my-portrait {
+    display: block;
+    float: none;
+    width: 50%;
+  }
 }

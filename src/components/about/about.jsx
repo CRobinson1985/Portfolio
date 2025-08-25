@@ -20,6 +20,7 @@ export default function About() {
         every moment of it. Eventually, I also acquired a guide for Visual Basic
         and C, and started the devouring them, as well.
       </p>
+      <br />
       <p>
         My career life as a young adult had gone a different route from coding,
         however. When I was young, I had figured I would need a degree to ever
@@ -32,6 +33,7 @@ export default function About() {
         and jumped at the chance. I've sold automotive service, then brand new
         Automobiles. Ultimately, ending my sales journey in mattress sales.
       </p>
+      <br />
       <p>
         Now, 25+ years after I initially found that love for coding, my passion
         has been reignited. I have completed a number of great courses on
